@@ -6,7 +6,7 @@ Path: docs/kontrak-kuliah
 
 # Kontrak Kuliah: Praktikum Database Management System
 
-DBMS — diselenggarakan oleh Fakultas Teknologi Informasi dan Sains Data Universitas Sebelas Maret, Semester Ganjil 2025/2026
+DBMS — diselenggarakan oleh Fakultas Teknologi Informasi dan Sains Data Universitas Sebelas Maret, Semester Ganjil 2026/2027
 
 ---
 
@@ -21,9 +21,6 @@ DBMS — diselenggarakan oleh Fakultas Teknologi Informasi dan Sains Data Univer
 
 `Akses Menggunakan Akun SSO`
 
-Berikut link docs untuk rencana materi pembelajaran DBMS kelas A & B Informatika UNS : 
-
-[Rencana Pembelajaran](https://docs.google.com/document/d/12enlVPoVZqyjxzEmlbZUn_WGF23gadqP/edit?usp=sharing&ouid=103843316818891282446&rtpof=true&sd=true)
 
 Berikut link docs untuk rencana materi pembelajaran DBMS kelas A Informatika PSDKU UNS : 
 
@@ -35,12 +32,12 @@ Untuk Rencana Pembelajaran bisa update sewaktu" jadi sangat dianjurkan untuk rut
 
 ## Kontributor
 
-- Addin Hadi Rizal
-- Clementine Dwayani Danitasari
-- Mohammed Nasser
+- Rizky Fajar Triwibowo
+- Nadhifal Azharudia Atmaja
+- Aqila Ramdhan Fuady Latief
 
 :::warning
 ## Credits
 
-Tutorial ini dikembangkan oleh Asisten Praktikum DBMS 2025. Segala tutorial serta instruksi yang dicantumkan pada repositori ini dirancang sedemikian rupa sehingga mahasiswa yang sedang mengambil mata kuliah Basis Data dapat menyelesaikan tutorial saat sesi lab berlangsung.
+Tutorial ini dikembangkan oleh Asisten Praktikum DBMS 2026. Segala tutorial serta instruksi yang dicantumkan pada repositori ini dirancang sedemikian rupa sehingga mahasiswa yang sedang mengambil mata kuliah Basis Data dapat menyelesaikan tutorial saat sesi lab berlangsung.
 :::

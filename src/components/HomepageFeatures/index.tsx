@@ -27,25 +27,17 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Platform utama untuk pengumuman, pengumpulan tugas, dan interaksi kelas
-        yang mendukung diskusi antar mahasiswa.
+        yang mendukung diskusi antar mahasiswa, EEIITSSS LINK CLASROOM BISA DI AKSES DI GRUP WA MASING2 YAAA 
+        JADI ORANG LUAR GA BISA AKSES
       </>
     ),
     ctas: [
       {
-        label: "Classroom Kelas A",
-        to: "https://classroom.google.com/c/ODA1NDg0NTM3OTQ4?cjc=fdox6nfa",
+        label: "Classroom Kelas A dan B (BEST)",
+        to: "https://youtu.be/QDia3e12czc?si=cjsmbKkc2Er6uOhr",
         variant: "primary",
       },
-      {
-        label: "Classroom Kelas B",
-        to: "https://classroom.google.com/c/ODA1NTM5NzI3Njc0?cjc=pg5wukrw",
-        variant: "primary",
-      },
-      {
-        label: "Classroom PSDKU",
-        to: "https://classroom.google.com/c/ODA1NTQyNDUyNzA0?cjc=zuuynih7",
-        variant: "primary",
-      },
+     
     ],
   },
   {

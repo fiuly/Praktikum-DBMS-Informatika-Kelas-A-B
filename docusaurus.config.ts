@@ -14,16 +14,10 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: "https://dbms-fatisda-uns.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/DBMS-2025/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "DBMS-FATISDA-UNS", // Usually your GitHub org/user name.
-  projectName: "DBMS-2025", // Usually your repo name.
+url: 'https://fiuly.github.io', 
+baseUrl: '/Praktikum-DBMS-Informatika-Kelas-A-B/',
+organizationName: 'fiuly', 
+projectName: 'Praktikum-DBMS-Informatika-Kelas-A-B',
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -77,7 +71,7 @@ const config: Config = {
     image: "img/logo.png",
     navbar: {
       hideOnScroll: true,
-      title: "DBMS 25/26",
+      title: "DBMS 26/27",
       logo: {
         alt: "UNS Logo",
         src: "img/logo.png",
@@ -97,7 +91,7 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://github.com/DBMS-FATISDA-UNS/DBMS-2025",
+          href: "https://github.com/fiuly",
           label: "GitHub",
           position: "right",
         },
@@ -118,7 +112,7 @@ const config: Config = {
               to: "/assignments/",
             },
             {
-              href: "https://github.com/DBMS-FATISDA-UNS/DBMS-2025",
+              href: "https://github.com/fiuly",
               label: "GitHub",
             },
           ],

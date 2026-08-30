@@ -17,7 +17,7 @@ function HomepageHeader() {
     >
       <div className="container">
         <div className={styles.heroInner}>
-          <span className={styles.badgeSemester}>Odd Semester 2025/2026</span>
+          <span className={styles.badgeSemester}>Odd Semester 2026/2027</span>
           <Heading
             as="h1"
             className="hero__title"
@@ -43,7 +43,7 @@ function HomepageHeader() {
             </Link>
             {/* <Link
               className="button button--thirdary button--lg"
-              to="https://github.com/DBMS-FATISDA-UNS/DBMS-2025"
+              to="https://github.com/fiuly?tab=repositories"
             >
               Repo GitHub
             </Link> */}
