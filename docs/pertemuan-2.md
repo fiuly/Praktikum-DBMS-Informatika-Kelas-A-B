@@ -342,19 +342,12 @@ MySQL/MariaDB yang dijalankan melalui Laragon memiliki beberapa tipe data yang b
 
 ### 1. Tipe Data Karakter (fixed vs variable, Unicode vs non‑Unicode)
 | Tipe | Keterangan Singkat | Rentang/Ukuran | Catatan Praktis |
-
 |---|---|---|---|
-
 | `CHAR(n)` | Fixed-length non‑Unicode | 1–8000 | Stabil untuk panjang seragam (mis. kode negara `ID`). |
-
 | `VARCHAR(n)` | Variable-length non‑Unicode | 1–8000 | Umum untuk teks pendek berbahasa Inggris. |
-
 | `CHAR(n)` | Fixed-length character | 0–255 | Gunakan character set `utf8mb4` untuk teks Unicode. |
-
 | `VARCHAR(n)` | Variable-length character | bergantung panjang baris | Gunakan character set `utf8mb4` untuk bahasa Indonesia & multi-bahasa. |
-
 | `TEXT` / `MEDIUMTEXT` / `LONGTEXT` | Teks panjang | hingga ukuran besar | Pilih jenis `TEXT` sesuai kebutuhan penyimpanan. |
-
 | (Legacy) `TEXT`/`NTEXT` | **Deprecated** | — | **Hindari**; gunakan `VARCHAR(MAX)`/`NVARCHAR(MAX)`. |
 
 Contoh:
@@ -373,19 +366,12 @@ CREATE TABLE contoh_karakter (
 
 ### 2. Tipe Data Tanggal/Waktu** **(penamaan di daftar isi tampak duplikat “Karakter”; di sini disajikan bagian tanggal/waktu)
 | Tipe | Keterangan | Presisi |
-
 |---|---|---|
-
 | `DATE` | Tanggal (YYYY‑MM‑DD) | Hari |
-
 | `TIME(p)` | Waktu | 0–7 digit pecahan detik |
-
 | `DATETIME` | Tanggal & waktu | ~3ms, rentang 1753–9999 |
-
 | `SMALLDATETIME` | Tgl & waktu ringkas | Menit, 1900–2079 |
-
 | `DATETIME` | Tanggal & waktu | Presisi hingga mikrodetik bila menggunakan pecahan |
-
 | `TIMESTAMP` | Tanggal & waktu | Cocok untuk pencatatan waktu dan dapat menggunakan default otomatis |
 
 Contoh default & audit waktu:
@@ -406,13 +392,9 @@ CREATE TABLE log_sesi (
 | Tipe | Keterangan | Rentang/Presisi | Catatan |
 
 |---|---|---|---|
-
 | `TINYINT`/`SMALLINT`/`INT`/`BIGINT` | Bilangan bulat | 0–255 / ±32K / ±2.1B / ±9e18 | Pilih sesuai rentang data. |
-
 | `DECIMAL(p,s)` / `NUMERIC(p,s)` | Presisi tetap | p≤38 | **Untuk uang**/nilai presisi. |
-
 | `FLOAT`/`REAL` | Pecahan biner | — | Hindari untuk uang (ada **rounding error**). |
-
 | `MONEY`/`SMALLMONEY` | Tipe khusus uang | — | Lebih baik gunakan `DECIMAL` untuk kontrol presisi. |
 
 Contoh:
