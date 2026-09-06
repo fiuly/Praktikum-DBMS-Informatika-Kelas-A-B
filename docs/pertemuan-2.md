@@ -390,7 +390,6 @@ CREATE TABLE log_sesi (
 
 ### 3. Tipe Data Numerik
 | Tipe | Keterangan | Rentang/Presisi | Catatan |
-
 |---|---|---|---|
 | `TINYINT`/`SMALLINT`/`INT`/`BIGINT` | Bilangan bulat | 0–255 / ±32K / ±2.1B / ±9e18 | Pilih sesuai rentang data. |
 | `DECIMAL(p,s)` / `NUMERIC(p,s)` | Presisi tetap | p≤38 | **Untuk uang**/nilai presisi. |
