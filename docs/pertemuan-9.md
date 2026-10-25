@@ -2,7 +2,7 @@
 id: pertemuan-9
 title: Database Administration
 sidebar_label: Pertemuan 9
-sidebar_position: 9
+sidebar_position: 10
 slug: /pertemuan-9
 ---
 
